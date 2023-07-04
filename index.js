@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const random = require("./node-random-master/main.js");
 const bot = new Discord.Client();
 
-const token = 'NjEwNzgzODMzMDkxOTk3NzE3.XVKTPg.YkSioX6jO2AcTuCdzqCcmEUc_mc';
+const token = 'NjEwNzgzODMzMDkxOTk3NzE3.G4tHLY.htOvj0U7Lrqn-8YVTKH-Xv-8NE3ZdNDOFgPn-c';
 
 var channel;
 var output;
