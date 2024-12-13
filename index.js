@@ -2,10 +2,13 @@ const Discord = require('discord.js');
 const random = require("./node-random-master/main.js");
 const bot = new Discord.Client();
 
-const token = 'NjEwNzgzODMzMDkxOTk3NzE3.G4tHLY.htOvj0U7Lrqn-8YVTKH-Xv-8NE3ZdNDOFgPn-c';
+let token = 'PUT TOKEN HERE';
 
 var channel;
 var output;
+
+if (token == 'PUT TOKEN HERE')
+	throw new Error('Missing discord bot token! Edit index.js directly to add your token.');
 
 bot.on('ready', () => 
 {
